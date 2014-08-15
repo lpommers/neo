@@ -1,5 +1,40 @@
 // bower:scss
 // endbower
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.2rem;
+$h3-font-size: 1rem;
+
+$base-color: #000000;
+
+* {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+p {
+  color: lighten( $base-color, 30% );
+}
+
+small {
+  font-style: italic;
+}
+
+.container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 .browsehappy {
   margin: 0.2em 0;

@@ -13,5 +13,5 @@ angular.module('neoApp')
         .success(function(data){
             $scope.reviews = data;
         });
-
   });
+
